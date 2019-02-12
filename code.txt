@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link href="app.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <header class="container-fluid">
+    <h1>Visit Anytown, USA!</h1>
+    </header> 
+
+    <nav class = "container-fluid">
+        <ul class="nav navbar-inverse navbar-nav">
+            <li class= "active"><a href="#">Home</a></li>
+            <li><a href="https://www.skyscanner.net/news/10-amazing-places-you-won-t-believe-exist-earth">Amazing Places</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+	
+    <div class="container-fluid">
+         <div class= "row"> 
+                    <aside class= "col-sm-3">
+                    <h2 class="title">Things to Do</h2> 
+                            <ul>
+                                <li><a href="https://en.wikipedia.org/wiki/Hiking" target="_blank">Hiking</li></a>
+                                <li><a href="https://en.wikipedia.org/wiki/Mountain_biking" target="_blank">Biking</li></a>
+                                <li><a href="https://en.wikipedia.org/wiki/Equestrianism" target="_blank">Horseback</li></a>
+                                <li><a href="https://en.wikipedia.org/wiki/Backpacking_(travel)" target="_blank">Backpacking</li></a>
+                            </ul>
+                    </aside>
+
+                    <section class= "col-sm-6">
+                        <div class="row">
+                    <article>
+                        <h2>Amazing Museums</h2>
+                        <div class="col-sm-3">
+                        <img src ="https://i2.wp.com/thehouseofmaps.com/wp/wp-content/uploads/2016/04/495086896_6afcb04acd.jpg" />
+                        </div>
+                        <div class="col-sm-9">
+                        <p>While most museums are a collection of old artifacts and stuff that no one is really interested in seeing, our musuems are the best of the best.</p>
+                        <p>You won't find anything like these any where else in the world. Our museums rival that of our closest competitors including the Museum of Bad Art, the Paris Sewers Musuem and the Museum of Broken Relationships.</p>
+                        <p>Come check them out...the fun is waiting for you.</p>
+                    </div>
+                    </article>
+
+                    <article>
+                        <h2>SplashAnyone Waterpark</h2>
+                        <div class="col-sm-3">
+                        <img src ="https://d3t3n08wuaojsj.cloudfront.net/1521057395/videos/RCCL_CocoBeach_ThrillWaterPark-poster.jpg" />
+                        </div>
+                        <div class="col-sm-9">
+                        <p>Our waterpark is the biggest and best park in the Western World. Just south of interstate 2015, you'll find a sweet mix of Super Slides and lazy rivers.</p>
+                        <p>If that wasn't enough, we have 376 of the best food trucks in the state serving everything from fried gummy bears to lemonade and pizza. Don't forget if you buy our collectors edition souvenir water park keepsake, you get free refills all year.</p>
+                        <p>And we wouldn't be SplashAnyone without the rules about splashing ... wait there are no rules.</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <h2>Best Zoo in Town</h2>
+                        <div class="col-sm-3">
+                        <img src="https://cdn-image.travelandleisure.com/sites/default/files/1471446346/exterior-ZOO0816.jpg" />
+                        </div>
+                        <div class="col-sm-9">
+                        <p>Finally, you won't want to miss out cuddly little zoo animals. Lions, tigers and bears...Oh My! We have the largest selection of born in captivity animals. We didn't want to take the from their natural habitat, so we just got them from the other zoos in the state.</p>
+                        </div>
+                    </article>
+                        </div>
+                    </section>
+
+                    <aside class= "col-sm-3">
+                    <h2>How to Get Here</h2>
+                            <ol id="orderedlist">
+                                <li>By Plane</li>
+                                <li>By Train</li>
+                                <li>By Automobile</li>
+                                <li>By Boat</li>
+                            </ol>
+                    </aside>
+                </div>
+    </div>
+    <footer class="container-fluid">
+        Copyright 2019
+    </footer>
+</body>
+
+</html>
